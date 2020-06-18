@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react';
+import { Canvas } from 'react-three-fiber'
+import { OrbitControls, StandardEffects, Box } from 'drei'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Canvas shadowMap colorManagement camera={{ position: [0, 0, 17], far: 50 }}>
+      <ambientLight />
+      <spotLight
+        intensity={2}
+        position={[20, 20, 20]}
+        shadow-bias={-0.00005}
+        angle={Math.PI / 6}
+        shadow-mapSize-width={2048}
+        shadow-mapSize-height={2048}
+        castShadow
+      />
+      <Box>
+        <meshBasicMaterial attach="material" />
+      </Box>
+      <Suspense fallback={null}>
+        <StandardEffects bloom={{ luminanceThreshold: 0.99 }} />
+      </Suspense>
+      <OrbitControls />
+    </Canvas>
   );
 }
 
