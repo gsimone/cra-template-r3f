@@ -2,6 +2,7 @@
 
 Includes:
 
+- three.js
 - react-three-fiber
 - drei
 - react-spring v9
@@ -17,3 +18,5 @@ cd my-project
 yarn install
 yarn start
 ```
+
+Or just fork this repository 🤷‍♂️
