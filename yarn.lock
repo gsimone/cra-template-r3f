@@ -1969,7 +1969,7 @@
     fluids "^0.1.6"
     tslib "^1.11.1"
 
-"@react-spring/three@9.0.0-rc.3":
+"@react-spring/three@9.0.0-rc.3", "@react-spring/three@^9.0.0-rc.3":
   version "9.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@react-spring/three/-/three-9.0.0-rc.3.tgz#bbfa7863c96ed8fa200cbff69222763c00977eef"
   integrity sha512-H55T+Dnck+hsJ8WgE+tb89ngX1E1lDOpMBG4mGzNLGok6XgGqN0VBsHRN3QDl+aPfmJI1BPFPR6b6WbhwqRNbw==
