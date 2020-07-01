@@ -15,8 +15,7 @@ Includes:
 npx degit gsimone/r3f-starter my-project
 cd my-project
 
-yarn install
-yarn start
+yarn && yarn start
 ```
 
 Or just fork this repository 🤷‍♂️
