@@ -1,8 +1,15 @@
 import React, { Suspense } from 'react';
 import { Canvas } from 'react-three-fiber'
-import { OrbitControls, StandardEffects, Box } from 'drei'
+import { OrbitControls, Box, Icosahedron } from 'drei'
+import Effects from './Effects'
 
 function App() {
+  const test = React.useRef()
+
+  React.useEffect(() => {
+    console.log(test)
+  })
+  
   return (
     <Canvas
       shadowMap
@@ -23,10 +30,10 @@ function App() {
         castShadow
       />
       <Box position={[-3, 0, 0]} />
-      <Box />
+      <Icosahedron ref={test} args={[1, 1]} material-wireframe material-color="cyan" />
       <Box position={[3, 0, 0]} />
       <Suspense fallback={null}>
-        <StandardEffects
+        <Effects
           smaa
           bloom={{ luminanceThreshold: 0.99 }} />
       </Suspense>
