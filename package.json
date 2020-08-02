@@ -4,22 +4,25 @@
   "private": true,
   "dependencies": {
     "@react-spring/three": "^9.0.0-rc.3",
-    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/jest-dom": "^5.11.2",
     "@testing-library/react": "^10.4.7",
-    "@testing-library/user-event": "^12.0.15",
-    "drei": "^0.0.66",
-    "git": "^0.1.5",
+    "@testing-library/user-event": "^12.1.0",
+    "drei": "^0.0.69",
+    "glsl-noise": "^0.0.0",
+    "postprocessing": "^6.16.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-postprocessing": "^1.1.1",
     "react-scripts": "3.4.1",
-    "react-three-fiber": "^4.2.17",
-    "three": "^0.118.3"
+    "react-three-fiber": "^4.2.18",
+    "react-three-gui": "^0.1.5",
+    "three": "^0.119.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +38,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged --pattern \"**/*.*(js)\""
+    }
+  },
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "customize-cra-react-refresh": "^1.1.0",
+    "glslify-loader": "^2.0.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "raw-loader": "^4.0.1",
+    "react-app-rewired": "^2.1.6"
   }
 }
