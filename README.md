@@ -1,14 +1,29 @@
 # Simple react-three-fiber starter project
 
-Includes:
+### Included libs
 
-- three.js
-- react-three-fiber
-- drei
+- [three.js](https://github.com/mrdoob/three.js)
+- [react-three-fiber](https://github.com/react-spring/react-three-fiber)
+- [drei](https://github.com/react-spring/drei)
+- [react-postprocessing](https://github.com/drcmda/react-postprocessing)
+
+### Build additions
+
+- `glsify-loader` to use require in shaders (eg. `#pragma glslify: snoise3 = require(glsl-noise/simplex/3d)`)
 - react-spring v9
-- draco binaries
-- Scene setup with OrbitControls and StandardEffects
 
+### Misc
+
+- draco binaries in `public/draco-gltf/` (the default directory used by `useGLTFLoader` in `drei`)
+- simple default shaders in `src/shaders/`
+- Scene setup with OrbitControls and React-PostProcessing
+
+### Dev stuff
+
+- `eslint`
+- `prettier` with `husky` & `pretty-quick`
+- `react-fast-refresh`
+  
 ## How to use
 
 ```
