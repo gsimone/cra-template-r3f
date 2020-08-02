@@ -39,6 +39,9 @@
       "last 1 safari version"
     ]
   },
+  "prettier": {
+    "tabWidth": 2
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged --pattern \"**/*.*(js)\""

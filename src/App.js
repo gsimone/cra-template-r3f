@@ -13,6 +13,7 @@ function App() {
       style={{
         background: "#121212",
       }}
+      concurrent
     >
       <Scene />
       <Effects />
