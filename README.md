@@ -7,6 +7,8 @@
 - [drei](https://github.com/react-spring/drei)
 - [react-postprocessing](https://github.com/drcmda/react-postprocessing)
 
+- [glsl-noise](https://github.com/hughsk/glsl-noise#readme)
+
 ### Build additions
 
 - `glsify-loader` to use require in shaders (eg. `#pragma glslify: snoise3 = require(glsl-noise/simplex/3d)`)
