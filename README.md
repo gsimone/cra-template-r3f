@@ -1,4 +1,4 @@
-# Simple react-three-fiber starter project
+<img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/public/logo.png" width="360" />
 
 ### Included libs
 
