@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/public/logo.png" width="360" />
+<p align="center"><img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/public/logo.png" width="360" /></p>
 
 ### Included libs
 
