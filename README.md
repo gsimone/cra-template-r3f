@@ -3,7 +3,7 @@
 ### Included libs
 
 - [three.js](https://github.com/mrdoob/three.js)
-- [react-three-fiber](https://github.com/react-spring/react-three-fiber)
+- [react-three-fiber](https://github.com/react-spring/react-three-fiber) v5 beta
 - [drei](https://github.com/react-spring/drei)
 - [react-postprocessing](https://github.com/drcmda/react-postprocessing)
 
