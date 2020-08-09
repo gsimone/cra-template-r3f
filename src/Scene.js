@@ -3,7 +3,7 @@ import { Icosahedron } from "drei";
 import { useFrame } from "react-three-fiber";
 import glsl from "babel-plugin-glsl/macro";
 
-const vert = glsl`
+const frag = glsl`
   uniform float time;
   uniform vec2 resolution;
 
@@ -14,7 +14,7 @@ const vert = glsl`
   }
 `;
 
-const frag = glsl`
+const vert = glsl`
   uniform float time;
   uniform vec2 resolution;
 
