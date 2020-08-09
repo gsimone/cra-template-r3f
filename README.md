@@ -9,6 +9,7 @@
 
 ### Included libs
 
+- [create-react-app 4](https://github.com/facebook/create-react-app) 
 - [three.js](https://github.com/mrdoob/three.js)
 - [react-three-fiber](https://github.com/react-spring/react-three-fiber) v5 beta
 - [drei](https://github.com/react-spring/drei)
@@ -19,10 +20,11 @@
 
 ### Misc
 
+- 🌟 create-react-app 4 alpha with *fast refresh*
 - 🌟 recommendend vsc extensions for working with glsl
-- 🌟babel-glsl macro to compile glsl without touching the `create-react-app` config
+- 🌟 babel-glsl macro to compile glsl without touching the `create-react-app config`
 - draco binaries in `public/draco-gltf/` (the default directory used by `useGLTFLoader` in `drei`)
-- simple shaders to start playing
+- simple shader to start playing
 - Scene setup with OrbitControls and React-PostProcessing
 
 ### Dev stuff
