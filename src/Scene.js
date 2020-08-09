@@ -1,8 +1,6 @@
 import React, { useMemo, useRef } from "react";
 import { Icosahedron } from "drei";
-
 import { useFrame } from "react-three-fiber";
-
 import glsl from "babel-plugin-glsl/macro";
 
 const vert = glsl`
