@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "r3f-starter",
+  "name": "react-three-fiber Starter",
   "icons": [
     {
       "src": "favicon.ico",
