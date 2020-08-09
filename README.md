@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/public/logo.png" width="360" /></p>
 
-📦[Fork me on codesandbox](https://codesandbox.io/s/github/gsimone/r3f-starter)
+📦 [Fork me on codesandbox](https://codesandbox.io/s/github/gsimone/r3f-starter)
 
 ### Why
 
