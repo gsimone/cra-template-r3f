@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.11.1",
     "@react-spring/three": "^9.0.0-rc.3",
     "babel-plugin-glsl": "^1.0.0",
     "drei": "^0.0.71",
