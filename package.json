@@ -4,9 +4,7 @@
   "private": true,
   "dependencies": {
     "@react-spring/three": "^9.0.0-rc.3",
-    "@testing-library/jest-dom": "^5.11.2",
-    "@testing-library/react": "^10.4.8",
-    "@testing-library/user-event": "^12.1.0",
+    "babel-plugin-glsl": "^1.0.0",
     "drei": "^0.0.71",
     "glsl-noise": "^0.0.0",
     "postprocessing": "^6.16.0",
@@ -21,7 +19,6 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
@@ -50,11 +47,9 @@
   "devDependencies": {
     "customize-cra": "^1.0.0",
     "customize-cra-react-refresh": "^1.1.0",
-    "glslify-loader": "^2.0.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
-    "raw-loader": "^4.0.1",
     "react-app-rewired": "^2.1.6"
   }
 }

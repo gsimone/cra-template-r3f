@@ -36,3 +36,14 @@ yarn && yarn start
 ```
 
 Or just fork this repository 🤷‍♂️
+
+
+
+# GLSL Linter
+
+You need to download and setup the glsl linter to make linting work in the shader files.
+
+- [Download GLSL lang](https://github.com/KhronosGroup/glslang/releases/tag/master-tot)
+- extract the archive
+- navigate to `/bin/`
+- copy the `glslangValidator` executable to your preferred location eg. `mv glslangValidator /usr/local/bin/glslangValidator`
