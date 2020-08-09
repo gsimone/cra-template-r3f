@@ -20,7 +20,7 @@
 ### Misc
 
 - 🌟 recommendend vsc extensions for working with glsl
-- 🌟babel-glsl macro to compile glsl without touching the `create-react-app config`
+- 🌟babel-glsl macro to compile glsl without touching the `create-react-app` config
 - draco binaries in `public/draco-gltf/` (the default directory used by `useGLTFLoader` in `drei`)
 - simple shaders to start playing
 - Scene setup with OrbitControls and React-PostProcessing
