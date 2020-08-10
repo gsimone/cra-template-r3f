@@ -1,4 +1,4 @@
-const glslLoader = require("./craco.glslify");
+const glslLoader = require("craco-glslify-loader");
 
 module.exports = {
   plugins: [
