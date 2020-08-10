@@ -21,19 +21,17 @@
 ### Misc
 
 - 🌟 create-react-app 4 alpha with *fast refresh*
-- 🌟 recommendend vsc extensions for working with glsl
-- 🌟 babel-glsl macro to compile glsl without touching the `create-react-app config`
+- 🌟 recommendend vsc extensions for working with glsl ([How do I make glsl-lint work?](#glsl-linter))
+- 🌟 babel-glsl macro to compile glsl without touching the `create-react-app config` - 🐛 currently doesn't work in codesandbox -
 - draco binaries in `public/draco-gltf/` (the default directory used by `useGLTFLoader` in `drei`)
-- simple shader to start playing
+- example shader material to start playing
 - Scene setup with OrbitControls and React-PostProcessing
 
 ### Dev stuff
 
-- `eslint`
-- `prettier` with `husky` & `pretty-quick`
-- `react-fast-refresh`
+- `eslint` + `prettier` with `husky` & `pretty-quick`
   
-## How to use
+### How to use
 
 ```
 npx degit gsimone/r3f-starter my-project
@@ -44,9 +42,7 @@ yarn && yarn start
 
 Or just fork this repository 🤷‍♂️
 
-
-
-# GLSL Linter
+### GLSL Linter
 
 You need to download and setup the glsl linter to make linting work in the shader files.
 
