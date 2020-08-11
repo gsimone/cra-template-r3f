@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/public/logo.png" width="360" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/logo.png" width="360" /></p>
 
 ```bash
 create-react-app my3dapp --template=react-three-fiber
