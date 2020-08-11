@@ -1,6 +1,11 @@
 <p align="center"><img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/public/logo.png" width="360" /></p>
 
-[![Edit gsimone/r3f-starter](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/gsimone/r3f-starter/tree/master/?fontsize=14&hidenavigation=1&theme=light)
+```bash
+create-react-app my3dapp --template=react-three-fiber
+
+# or
+create-react-app my3dapp --template=r3f
+```
 
 ### Why
 
@@ -34,10 +39,7 @@
 ### How to use
 
 ```
-npx degit gsimone/r3f-starter my-project
-cd my-project
 
-yarn && yarn start
 ```
 
 Or just fork this repository 🤷‍♂️

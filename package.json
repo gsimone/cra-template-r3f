@@ -1,46 +1,16 @@
 {
-  "name": "r3f-starter",
+  "name": "cra-template-react-three-fiber",
+  "main": "template.json",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@babel/core": "^7.11.1",
-    "@craco/craco": "^5.6.4",
-    "@react-spring/three": "^9.0.0-rc.3",
-    "babel-plugin-glsl": "^1.0.0",
-    "craco-glslify-loader": "^1.0.2",
-    "craco-raw-loader": "^1.0.1",
-    "cz-conventional-changelog": "^3.2.0",
-    "drei": "^0.0.72",
-    "glsl-noise": "^0.0.0",
-    "postprocessing": "^6.16.0",
-    "react": "^17.0.0-rc.0",
-    "react-dom": "^17.0.0-rc.0",
-    "react-postprocessing": "^1.1.4",
-    "react-scripts": "^4.0.0-next.77",
-    "react-three-fiber": "5.0.0-beta.11",
-    "react-three-gui": "^0.1.5",
-    "three": "^0.119.1"
-  },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "eject": "craco eject",
-    "cm": "git-cz"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "cm": "git-cz",
+    "format": "prettier \"./**/*.{js,ts,tsx}\"",
+    "format:fix": "prettier \"./**/*.{js,ts,tsx}\" --write",
+    "lint": "eslint \"./**/*.{js,ts,tsx}\"",
+    "lint:fix": "eslint \"./**/*.{js,ts,tsx}\" --fix"
   },
   "prettier": {
     "tabWidth": 2
@@ -48,9 +18,7 @@
   "lint-staged": {
     "*.(js|ts|tsx)": [
       "eslint --fix",
-      "prettier --write",
-      "jest  --findRelatedTests --config jestconfig.json",
-      "git add"
+      "prettier --write"
     ]
   },
   "husky": {
@@ -73,12 +41,22 @@
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
+    "@craco/craco": "^5.6.4",
     "commitizen": "^4.1.2",
-    "glslify-loader": "^2.0.0",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "pretty-quick": "^2.0.1",
-    "raw-loader": "^4.0.1",
-    "lint-staged": "^10.2.11"
+    "pretty-quick": "^2.0.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4"
   }
 }
