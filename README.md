@@ -1,14 +1,12 @@
 <p align="center"><img src="https://raw.githubusercontent.com/gsimone/r3f-starter/master/logo.png" width="360" /></p>
 
 ```bash
-create-react-app my3dapp --template=react-three-fiber
-
-# or
 create-react-app my3dapp --template=r3f
 ```
 
 ### Why
 
+- **JS** ([Looking for Typescript?](https://github.com/gsimone/cra-template-r3f/tree/ts))
 - Latest versions of everything
 - Works with codesandbox out of the box
 
