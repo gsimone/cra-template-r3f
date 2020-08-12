@@ -19,7 +19,12 @@
         "react-postprocessing": "^1.1.4",
         "react-scripts": "^4.0.0-next.77",
         "react-three-fiber": "5.0.0-beta.11",
-        "three": "^0.119.1"
+        "three": "^0.119.1",
+        "@types/node": "^12.0.0",
+        "@types/react": "^16.9.0",
+        "@types/react-dom": "^16.9.0",
+        "@types/jest": "^26.0.0",
+        "typescript": "^3.9.5"
       },
       "husky": {
         "hooks": {
