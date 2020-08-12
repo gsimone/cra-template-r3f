@@ -6,7 +6,6 @@
     "start": "craco start",
     "build": "craco build",
     "eject": "craco eject",
-    "cm": "git-cz",
     "format": "prettier \"./**/*.{js,ts,tsx}\"",
     "format:fix": "prettier \"./**/*.{js,ts,tsx}\" --write",
     "lint": "eslint \"./**/*.{js,ts,tsx}\"",
